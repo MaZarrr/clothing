@@ -4,10 +4,7 @@ import { withRouter } from 'react-router-dom';
 import './menu-item.styles.scss';
 
 const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => {
-	// console.log("His", history)
-	// console.log("Match", match)
-	// console.log("kink", linkUrl)
-
+	
 return (  
 	<div
     className={`${size} menu-item`}
@@ -21,8 +18,7 @@ return (
   	<h1 className="title">{title.toUpperCase()}</h1>
   	<span className="subtitle">Купить сейчас</span>
   </div>	
-
-    </div>
+  </div>
 )
 }
 
